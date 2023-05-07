@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Reflections on Tech, AI & Software`,
+    title: `Reflections Software, AI and Tech.`,
     author: {
       name: `Edwin Genego`,
-      summary: `who is passionate about Software and all things related to Tech. Reach out to, or`,
+      summary: `who is passionate about Software and all things related to Tech. Reach out to,`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
