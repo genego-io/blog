@@ -1,7 +1,7 @@
 ---
-title: Learning more about AI & LLMs through creating a personal assistant with Langchain
+title: (Part 1) Learning more about AI & LLMs through creating a personal assistant with Langchain 
 date: "2023-05-07T22:12:03.284Z"
-description: "Searching through books with the OpenAI API"
+description: "The start of my journey to create a Jarvis like Chatbot"
 ---
 
 
@@ -45,9 +45,9 @@ popular framework for building applications with LL M's. And apparently everyone
 It all started with `ChatOpenAI(temperature=0)` which under the hood initialized the OpenAI model `gpt-3.5-turbo`, not
 quite as good as `gpt-4`, but since I did not have access to `gpt-4` yet ... good enough!
 
-> **Note**: While I will go into the details of actually customizing such an assistant into another blog post, I will
-> use this
-> post on a general overview of the actions which I have taken and the limitations I learned.
+> **Note**: While I will go into the details (code snippets & considerations) of actually customizing such an 
+> assistant into another blog post, I will use this post on a general overview of the actions which I have taken 
+> and the limitations I learned.
 
 Contrasting my requirements against the available options with Langchain, I slowly started to see what I had to build.
 Langchain comes with quite a few batteries included, and I was about to use most of those.
@@ -81,11 +81,29 @@ Langchain comes with quite a few batteries included, and I was about to use most
           There would be 100 free API calls I would be able to max out, but having to pay more than 10$ and being having
           my credit card tied to some random experiment, didn't really sound so convincing to me. DuckDuckGo API calls
           are free instead, so I went with that.
-    - LLM-Math:
-    - Wikipedia
-    - Wolfram Alpha
+    - **[LLM-Math](https://python.langchain.com/en/latest/modules/chains/examples/llm_math.html):**
+        - Included with Langchain, for doing basic calculations any result (like a Google result). For example,
+          retrieving today's lottery numbers (DuckDuckGo) and having the result be multiplied by 10. Which is a great
+          thing for things like exchange rates.
+    - **[Wikipedia](https://python.langchain.com/en/latest/modules/agents/tools/examples/wikipedia.html)**
+        - Simple Wikipedia Retrieval. For example, what we can do here is bypass the need for a search query, and
+          instead go to WikiPedia directly. We could ask the LLM to list 10 similarities between queen Cleopatra and
+          Obama. Where without wikipedia we would likely some results stacked on top of our DuckDuckGo search, but with
+          Wikipedia we will end up comparing the results between two actual WikiPedia pages.
+      
+### --- To be continued in Part 2:
 
+- **Giving the LLM a large amount of my biases and preferences.**
+   - Redis Vector storage
+   - OpenAI Embeddings
+- **Short & Long Term memory and context management.**
+    - Summarization
+    - Redis
+- Automation
+  - [FastAPI](https://fastapi.tiangolo.com/)
+  - [n8n](https://n8n.io/)
+ 
+### --- To be continued in Part 3:
 
-2. Remembering past conversations: LC Memory
-
---- To be continued
+- Moving from GPT-3.5 Turbo to GPT-4
+- Moving from GPT-4 to an Open Source model
