@@ -63,13 +63,19 @@ Langchain comes with quite a few batteries included, and I was about to use most
    this ([more info](https://python.langchain.com/en/latest/modules/agents/tools/custom_tools.html)):**
 
     ```python
-    search = ToolClass()
+    search_y = tool_function_y()
+    search_x = tool_function_x()
     
     tools = [
         Tool.from_function(
-            func=search.run,
+            func=tool_function_y.run,
             name = "Useful Search to use for doing Y",
             description="useful for when searching for Y but not X"
+        ),
+           Tool.from_function(
+            func=tool_function_x.run,
+            name = "Useful Search to use for doing X",
+            description="useful for when searching for X but not Y"
         ),
     ]
     ```
