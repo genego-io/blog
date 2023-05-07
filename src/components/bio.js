@@ -47,7 +47,7 @@ const Bio = () => {
           A blog by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a target="_blank" href="https://edwin.genego.io">
-            Reach out to, or find out more about him on his personal website.
+            or find out more about him on his personal website.
           </a>
         </p>
       )}
