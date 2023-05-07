@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Reflections Software, AI and Tech.`,
+    title: `Reflections on Software, AI and Tech.`,
     author: {
       name: `Edwin Genego`,
       summary: `who is passionate about Software and all things related to Tech. Reach out to,`,
