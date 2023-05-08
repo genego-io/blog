@@ -99,17 +99,25 @@ Langchain comes with quite a few batteries included, and I was about to use most
       
 ### --- To be continued in Part 2:
 
+While I do have the full Jarvis assistant ready and working, I will lag behind documenting my journey here by a few
+weeks due to time constraints. Another update to this post should be up next weekend. Below is a little taste platter of
+what has been implemented and what is currently being worked on.
+
 - **Giving the LLM a large amount of my biases and preferences.**
-   - Redis Vector storage
-   - OpenAI Embeddings
+    - Redis Vector storage
+    - OpenAI Embeddings
 - **Short & Long Term memory and context management.**
     - Summarization
     - Redis
 - Automation
-  - [FastAPI](https://fastapi.tiangolo.com/)
-  - [n8n](https://n8n.io/)
- 
-### --- To be continued in Part 3:
+    - [FastAPI](https://fastapi.tiangolo.com/)
+    - [n8n](https://n8n.io/)
+
+### --- To be continued:
+
+Further implementations on my wishlist.
 
 - Moving from GPT-3.5 Turbo to GPT-4
 - Moving from GPT-4 to an Open Source model
+- Better memory & summarization management
+- Fine-tuning the GPT-3 base model on biases and preferences
