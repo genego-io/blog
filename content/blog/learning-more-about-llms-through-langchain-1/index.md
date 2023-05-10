@@ -1,9 +1,18 @@
 ---
-title: (Part 1) Learning more about AI & LLMs through creating a personal assistant with Langchain 
+title: (Part 1) Learning more about AI & LLMs through creating a personal assistant with Langchain
 date: "2023-05-07T22:12:03.284Z"
 description: "The start of my journey to create a Jarvis like Chatbot"
+series: "Learning LLM through Langchain"
 ---
 
+<!-- TOC -->
+
+* [How I have been experiencing ChatGPT so far](#how-i-have-been-experiencing-chatgpt-so-far)
+* [Rather than ChatGPT I want a Jarvis like assistant](#rather-than-chatgpt-i-want-a-jarvis-like-assistant)
+    * [--- To be continued in Part 2:](#----to-be-continued-in-part-2)
+    * [--- To be continued:](#----to-be-continued)
+
+<!-- TOC -->
 
 Recently I have been spending a lot of my free time with ChatGPT as well as the OpenAI
 models (`gpt-3.5`, `gpt-3.5-turbo-0301` & `text-davinci-003`). Admittedly it has been my main reason to start this blog,
@@ -45,8 +54,8 @@ popular framework for building applications with LL M's. And apparently everyone
 It all started with `ChatOpenAI(temperature=0)` which under the hood initialized the OpenAI model `gpt-3.5-turbo`, not
 quite as good as `gpt-4`, but since I did not have access to `gpt-4` yet ... good enough!
 
-> **Note**: While I will go into the details (code snippets & considerations) of actually customizing such an 
-> assistant into another blog post, I will use this post on a general overview of the actions which I have taken 
+> **Note**: While I will go into the details (code snippets & considerations) of actually customizing such an
+> assistant into another blog post, I will use this post on a general overview of the actions which I have taken
 > and the limitations I learned.
 
 Contrasting my requirements against the available options with Langchain, I slowly started to see what I had to build.
@@ -96,7 +105,7 @@ Langchain comes with quite a few batteries included, and I was about to use most
           instead go to WikiPedia directly. We could ask the LLM to list 10 similarities between queen Cleopatra and
           Obama. Where without wikipedia we would likely some results stacked on top of our DuckDuckGo search, but with
           Wikipedia we will end up comparing the results between two actual WikiPedia pages.
-      
+
 ### --- To be continued in Part 2:
 
 While I do have the full Jarvis assistant ready and working, I will lag behind documenting my journey here by a few
@@ -106,6 +115,10 @@ what has been implemented and what is currently being worked on.
 - **Giving the LLM a large amount of my biases and preferences.**
     - Redis Vector storage
     - OpenAI Embeddings
+
+
+### --- To be continued:
+
 - **Short & Long Term memory and context management.**
     - Summarization
     - Redis
@@ -113,11 +126,8 @@ what has been implemented and what is currently being worked on.
     - [FastAPI](https://fastapi.tiangolo.com/)
     - [n8n](https://n8n.io/)
 
-### --- To be continued:
-
-Further implementations on my wishlist.
-
 - Moving from GPT-3.5 Turbo to GPT-4
 - Moving from GPT-4 to an Open Source model
 - Better memory & summarization management
 - Fine-tuning the GPT-3 base model on biases and preferences
+- 
