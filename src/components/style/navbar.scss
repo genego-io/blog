@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+  margin-top: -2em;
+  font-size: 1.1em;
+  ul {
+    display: flex;
+    list-style: none;
+    margin-left: -2em;
+    li {
+      padding-left: 2em;
+      a {
+        text-decoration: none;
+        &:hover {
+          color: rgba(27, 27, 27, 0.55);
+        }
+      }
+    }
+  }
+}

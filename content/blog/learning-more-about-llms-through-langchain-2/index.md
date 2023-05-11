@@ -1,5 +1,5 @@
 ---
-title: (Part 2) Learning more about AI & LLMs through creating a personal assistant with Langchain
+title: (Part 2) Learning about LLMs through Langchain
 date: "2023-05-09T23:42:03.284Z"
 description: "Vectorizing content, creating embeddings and doing logical operations on it."
 series: "Learning LLM through Langchain"

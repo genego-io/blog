@@ -1,5 +1,5 @@
 ---
-title: (Part 1) Learning more about AI & LLMs through creating a personal assistant with Langchain
+title: (Part 1) Learning about LLMs through Langchain
 date: "2023-05-07T22:12:03.284Z"
 description: "The start of my journey to create a Jarvis like Chatbot"
 series: "Learning LLM through Langchain"
