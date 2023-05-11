@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  margin-top: -2em;
+  font-size: 1.1em;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin-left: -2em;
+}
+.navbar ul li {
+  padding-left: 2em;
+}
+.navbar ul li a {
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: rgba(27, 27, 27, 0.55);
+}
+
+/*# sourceMappingURL=navbar.css.map */
