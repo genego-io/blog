@@ -3,12 +3,11 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
 const ArchivesPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = "Archives"
   const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout location={location} title={siteTitle}>
-      <h1>Archives</h1>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

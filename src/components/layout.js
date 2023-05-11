@@ -30,7 +30,7 @@ const Layout = ({location, title, children}) => {
             <main>{children}</main>
             <hr/>
             <footer>
-                © {new Date().getFullYear()}, Built without any writing or proofreading help by AI or LLMs  {/* That's a Lie */}
+                © {new Date().getFullYear()}, Built without any writing or proofreading help by AI or LLMs
 
                 {` `}
             </footer>
