@@ -13,6 +13,9 @@ const Navbar = () => {
                     <li>
                         <Link to="/archives">Archives</Link>
                     </li>
+                    <li className="hidden">
+                        <Link to="/series">Series</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
