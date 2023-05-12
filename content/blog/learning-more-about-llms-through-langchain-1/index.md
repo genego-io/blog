@@ -1,8 +1,9 @@
 ---
-title: (Part 1) Learning about LLMs through Langchain
+title: The start of my journey to create a Jarvis like Chatbot
 date: "2023-05-07T22:12:03.284Z"
-description: "The start of my journey to create a Jarvis like Chatbot"
-series: "Learning LLM through Langchain"
+description: "Creating a Chatbot with LLMs and Langchain"
+series: "Learning LLMs through Langchain"
+part: 1
 ---
 
 <!-- TOC -->

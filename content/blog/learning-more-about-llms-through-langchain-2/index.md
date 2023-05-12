@@ -1,8 +1,9 @@
 ---
-title: (Part 2) Learning about LLMs through Langchain
+title: Vectorizing, embeddings and retrieving.
 date: "2023-05-09T23:42:03.284Z"
-description: "Vectorizing content, creating embeddings and doing logical operations on it."
-series: "Learning LLM through Langchain"
+description: "Storing content, giving an LLM access to it, and chatting with LLM & content"
+series: "Learning LLMs through Langchain"
+part: 2
 ---
 
 <!-- TOC -->

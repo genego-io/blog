@@ -1,14 +1,14 @@
 import * as React from "react"
 import Layout from "../components/layout"
 
-const ContactPage = ({ location }) => {
+const Posts = ({ location }) => {
   const siteTitle = "Contact"
 
   return (
     <Layout location={location} title={siteTitle}>
-      <p>If you want to get in touch, you can send me an email at edwin@genego.io.</p>
+      <p>Under Construction</p>
     </Layout>
   )
 }
 
-export default ContactPage
+export default Posts

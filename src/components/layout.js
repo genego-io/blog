@@ -1,6 +1,7 @@
 import * as React from "react"
 import {Link} from "gatsby"
 import Navbar from "./Navbar"
+import Sidebar from "./sidebar";
 
 const Layout = ({location, title, children}) => {
     const rootPath = `${__PATH_PREFIX__}/`
@@ -23,17 +24,21 @@ const Layout = ({location, title, children}) => {
 
     return (
         <div className="global-wrapper" data-is-root-path={isRootPath}>
-            <header className="global-header">
-                <Navbar/>
-                {header}
-            </header>
-            <main>{children}</main>
-            <hr/>
-            <footer>
-                © {new Date().getFullYear()}, Built without any writing or proofreading help by AI or LLMs
+            <div className="content-wrapper">
+                <header className="global-header">
+                    <Navbar/>
+                    {header}
+                </header>
+                <main>{children}</main>
+                <hr/>
+                <footer>
+                    © {new Date().getFullYear()}, Built without any writing or proofreading help by AI or LLMs
 
-                {` `}
-            </footer>
+                    {` `}
+                </footer>
+
+            </div>
+            <Sidebar/>
         </div>
     )
 }
