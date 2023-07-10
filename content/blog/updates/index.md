@@ -1,7 +1,7 @@
 ---
 title: June/July - updates
 date: "2023-07-09T22:12:03.284Z"
-description: "About this blog, and my intentions for the future."
+description: "Writing takes more time than I do have!"
 ---
 
 Two months ago, I tried to commit to a weekly schedule of posting at least once a week. Ha-ha, here I am two months

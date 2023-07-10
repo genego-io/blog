@@ -1,7 +1,7 @@
 ---
 title: print("Hello World")
 date: "2023-05-06T22:12:03.284Z"
-description: "Writing takes more time than I do have!"
+description: "About this blog, and my intentions for the future."
 ---
 
 I have wanted to create a blog for some time. I am also hoping to be able to move https://edwin.genego.io to a blog of
