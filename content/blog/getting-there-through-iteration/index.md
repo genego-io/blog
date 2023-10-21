@@ -43,6 +43,8 @@ refining the page/article posting system as well.
 
 ![img_2.png](img_2.png)
 
+![img_3.png](img_3.png)
+
 Once again, just as with Gitbook, I have a very "rough" idea of where I want to end up. But I am unable to see it.
 Hence, I am a creator ... not a designer. Regardless, I think I can probably get the website online and running within a
 week or two, and then can retire this blog, and edwin.genego.io. I also think, I will move to a `dev` domain. Something
