@@ -1,6 +1,6 @@
 ---
 title: Getting there through iteration
-date: "2023-10-18T22:12:03.284Z"
+date: "2023-10-21T06:12:03.284Z"
 description: "Starting to realize while previous attempts have failed"
 series: "Wagtail Redesign"
 part: 2
