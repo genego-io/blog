@@ -36,7 +36,7 @@ improving. Then I remind myself, that things look like crap, I take a step back 
 moving forwards. Currently, the blog is fully set up. I need to introduce the tagging and series system, as well as
 refining the page/article posting system as well.
 
-![current.gif](current.gif)
+![img_2.png](img_2.png)
 
 Once again, just as with Gitbook, I have a very "rough" idea of where I want to end up. But I am unable to see it.
 Hence, I am a creator ... not a designer. Regardless, I think I can probably get the website online and running within a
